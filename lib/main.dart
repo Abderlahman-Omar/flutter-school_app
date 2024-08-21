@@ -7,6 +7,7 @@ import 'package:school_app/screens/home_screen.dart';
 import 'package:school_app/screens/login_screen.dart';
 import 'package:school_app/screens/profile_screen.dart';
 import 'package:school_app/screens/splash_screen.dart';
+import 'package:school_app/screens/time_table_screen.dart';
 
 void main() {
   runApp(const SchoolApp());
@@ -24,7 +25,7 @@ class SchoolApp extends StatefulWidget {
 }
 
 class _SchoolAppState extends State<SchoolApp> {
-  Locale _locale = const Locale('en');
+  Locale _locale = const Locale('ar');
 
   void setLocale(Locale locale) {
     setState(() {
@@ -71,6 +72,9 @@ class _SchoolAppState extends State<SchoolApp> {
             },
             ProfileScreen.routeName: (context) {
               return const ProfileScreen();
+            },
+            TimeTableScreen.routeName: (context) {
+              return const TimeTableScreen();
             },
           },
           initialRoute: SplashScreen.routeName,

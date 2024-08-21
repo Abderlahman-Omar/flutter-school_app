@@ -120,16 +120,6 @@ class S {
     );
   }
 
-  /// `Level 300`
-  String get studentLvl {
-    return Intl.message(
-      'Level 300',
-      name: 'studentLvl',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `A+`
   String get studentDegree {
     return Intl.message(
@@ -465,6 +455,176 @@ class S {
     return Intl.message(
       'Report',
       name: 'report',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Registeration Number`
+  String get regNo {
+    return Intl.message(
+      'Registeration Number',
+      name: 'regNo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Academic Year`
+  String get academicYear {
+    return Intl.message(
+      'Academic Year',
+      name: 'academicYear',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Admission Class`
+  String get admissionClass {
+    return Intl.message(
+      'Admission Class',
+      name: 'admissionClass',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Admission Number`
+  String get admissionNo {
+    return Intl.message(
+      'Admission Number',
+      name: 'admissionNo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Admission Date`
+  String get admissionDate {
+    return Intl.message(
+      'Admission Date',
+      name: 'admissionDate',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `1 Aug 2024`
+  String get admissionDateNo {
+    return Intl.message(
+      '1 Aug 2024',
+      name: 'admissionDateNo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Date Of Birth`
+  String get birthDay {
+    return Intl.message(
+      'Date Of Birth',
+      name: 'birthDay',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `23 Sep 1999`
+  String get birthDayNo {
+    return Intl.message(
+      '23 Sep 1999',
+      name: 'birthDayNo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email`
+  String get email {
+    return Intl.message(
+      'Email',
+      name: 'email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Student Name`
+  String get studentNameTitle {
+    return Intl.message(
+      'Student Name',
+      name: 'studentNameTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Abdelrahman Omar`
+  String get studentName {
+    return Intl.message(
+      'Abdelrahman Omar',
+      name: 'studentName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Father Name`
+  String get fatherNameTitle {
+    return Intl.message(
+      'Father Name',
+      name: 'fatherNameTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Omar Hassan`
+  String get fatherName {
+    return Intl.message(
+      'Omar Hassan',
+      name: 'fatherName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Student Level`
+  String get studentLvlTitle {
+    return Intl.message(
+      'Student Level',
+      name: 'studentLvlTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Level 300`
+  String get studentLvl {
+    return Intl.message(
+      'Level 300',
+      name: 'studentLvl',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Last Grade`
+  String get studentLastGradeTitle {
+    return Intl.message(
+      'Last Grade',
+      name: 'studentLastGradeTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `A+`
+  String get studentLastGrade {
+    return Intl.message(
+      'A+',
+      name: 'studentLastGrade',
       desc: '',
       args: [],
     );

@@ -22,16 +22,28 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "academicYear": MessageLookupByLibrary.simpleMessage("السنة الدراسية"),
+        "admissionClass": MessageLookupByLibrary.simpleMessage("فصل التقديم"),
+        "admissionDate": MessageLookupByLibrary.simpleMessage("تاريخ التقديم"),
+        "admissionDateNo":
+            MessageLookupByLibrary.simpleMessage(" ١ أغسطس ٢٠٢٤"),
+        "admissionNo": MessageLookupByLibrary.simpleMessage("رقم التقديم"),
         "ask": MessageLookupByLibrary.simpleMessage("اسأل"),
         "assignment": MessageLookupByLibrary.simpleMessage("الواجب "),
         "attendance": MessageLookupByLibrary.simpleMessage("الحضور"),
         "attendanceNo": MessageLookupByLibrary.simpleMessage("٩٠,٢٥ %"),
+        "birthDay": MessageLookupByLibrary.simpleMessage("تاريخ الميلاد"),
+        "birthDayNo": MessageLookupByLibrary.simpleMessage("٢٣ سبتمبر ١٩٩٩"),
         "change": MessageLookupByLibrary.simpleMessage("تغيير رمز المرور"),
         "classLocation":
             MessageLookupByLibrary.simpleMessage("قاعة رقم ١٢ أ| مقعد رقم ٢ "),
         "courseName": MessageLookupByLibrary.simpleMessage("برمجة فلاتر"),
         "dataSheet": MessageLookupByLibrary.simpleMessage("البيانات"),
+        "email": MessageLookupByLibrary.simpleMessage("البريد الاكترونى"),
         "events": MessageLookupByLibrary.simpleMessage("الاحداث"),
+        "fatherName": MessageLookupByLibrary.simpleMessage("عمر حسن"),
+        "fatherNameTitle":
+            MessageLookupByLibrary.simpleMessage("اسم والد الطالب"),
         "fees": MessageLookupByLibrary.simpleMessage("المستحقات"),
         "feesNo": MessageLookupByLibrary.simpleMessage("٦٠٠ \$"),
         "gallery": MessageLookupByLibrary.simpleMessage("الاستديو"),
@@ -48,6 +60,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logout": MessageLookupByLibrary.simpleMessage("تسجيل الخروج"),
         "numberedDegree": MessageLookupByLibrary.simpleMessage("١٢٥ درجة"),
         "profileTitle": MessageLookupByLibrary.simpleMessage("الملف الشخصى"),
+        "regNo": MessageLookupByLibrary.simpleMessage("رقم الحجز"),
         "report": MessageLookupByLibrary.simpleMessage("الابلاغ"),
         "result": MessageLookupByLibrary.simpleMessage("النتيجة"),
         "resultsTitle": MessageLookupByLibrary.simpleMessage("النتائج"),
@@ -59,8 +72,14 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("الذهاب لتسجبل الدخول"),
         "studentDegree": MessageLookupByLibrary.simpleMessage("ممتاز"),
         "studentFirstName": MessageLookupByLibrary.simpleMessage("عبدالرحمن"),
+        "studentLastGrade": MessageLookupByLibrary.simpleMessage("ممتاز"),
+        "studentLastGradeTitle":
+            MessageLookupByLibrary.simpleMessage("اخر تقدير للطالب"),
         "studentLastName": MessageLookupByLibrary.simpleMessage("عمر"),
         "studentLvl": MessageLookupByLibrary.simpleMessage("مستوى ۳۰۰"),
+        "studentLvlTitle": MessageLookupByLibrary.simpleMessage("مستوى الطالب"),
+        "studentName": MessageLookupByLibrary.simpleMessage("عبدالرحمن عمر"),
+        "studentNameTitle": MessageLookupByLibrary.simpleMessage("اسم الطالب"),
         "takeQuiz": MessageLookupByLibrary.simpleMessage("بدأ الاختبار"),
         "timeTable": MessageLookupByLibrary.simpleMessage("الجدول الزمنى"),
         "timeTitle": MessageLookupByLibrary.simpleMessage("الجدول الزمنى"),
