@@ -49,10 +49,29 @@ class MessageLookup extends MessageLookupByLibrary {
         "gallery": MessageLookupByLibrary.simpleMessage("Gallery"),
         "hi": MessageLookupByLibrary.simpleMessage("Hi "),
         "holidays": MessageLookupByLibrary.simpleMessage("Holidays"),
-        "instructorName": MessageLookupByLibrary.simpleMessage("Ahmed Ibrahim"),
+        "instructorName1":
+            MessageLookupByLibrary.simpleMessage("Ahmed Ibrahim"),
+        "instructorName2": MessageLookupByLibrary.simpleMessage("Eslam Gamal"),
+        "instructorName3":
+            MessageLookupByLibrary.simpleMessage("Mohamed Fathy"),
+        "instructorName4":
+            MessageLookupByLibrary.simpleMessage("Mahmoud Abbas"),
+        "instructorName5": MessageLookupByLibrary.simpleMessage("Mohamed Ali"),
         "leave": MessageLookupByLibrary.simpleMessage("Leave Application"),
         "lecDate": MessageLookupByLibrary.simpleMessage("20/08/2024"),
-        "lecTime": MessageLookupByLibrary.simpleMessage("9:00 AM"),
+        "lecDay1": MessageLookupByLibrary.simpleMessage("Sunday"),
+        "lecDay2": MessageLookupByLibrary.simpleMessage("Monday"),
+        "lecDay3": MessageLookupByLibrary.simpleMessage("Tuesday"),
+        "lecDay4": MessageLookupByLibrary.simpleMessage("Wednesday"),
+        "lecDay5": MessageLookupByLibrary.simpleMessage("Thursday"),
+        "lecPlace": MessageLookupByLibrary.simpleMessage("Hall No.1"),
+        "lecTime": MessageLookupByLibrary.simpleMessage("08:15am - 9:00am"),
+        "lecTitle": MessageLookupByLibrary.simpleMessage("Computer Science"),
+        "lecTitle1":
+            MessageLookupByLibrary.simpleMessage("Mechanics of Machine"),
+        "lecTitle2": MessageLookupByLibrary.simpleMessage("Thermo Dynamics"),
+        "lecTitle3": MessageLookupByLibrary.simpleMessage("Fluid Dynamics"),
+        "lecTitle4": MessageLookupByLibrary.simpleMessage("Mathematics"),
         "loginInput1":
             MessageLookupByLibrary.simpleMessage("Email / Mobile Number"),
         "loginInput2": MessageLookupByLibrary.simpleMessage("Password"),

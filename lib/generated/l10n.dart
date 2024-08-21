@@ -140,31 +140,11 @@ class S {
     );
   }
 
-  /// `9:00 AM`
-  String get lecTime {
-    return Intl.message(
-      '9:00 AM',
-      name: 'lecTime',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `20/08/2024`
   String get lecDate {
     return Intl.message(
       '20/08/2024',
       name: 'lecDate',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Ahmed Ibrahim`
-  String get instructorName {
-    return Intl.message(
-      'Ahmed Ibrahim',
-      name: 'instructorName',
       desc: '',
       args: [],
     );
@@ -625,6 +605,176 @@ class S {
     return Intl.message(
       'A+',
       name: 'studentLastGrade',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Computer Science`
+  String get lecTitle {
+    return Intl.message(
+      'Computer Science',
+      name: 'lecTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mechanics of Machine`
+  String get lecTitle1 {
+    return Intl.message(
+      'Mechanics of Machine',
+      name: 'lecTitle1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Thermo Dynamics`
+  String get lecTitle2 {
+    return Intl.message(
+      'Thermo Dynamics',
+      name: 'lecTitle2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Fluid Dynamics`
+  String get lecTitle3 {
+    return Intl.message(
+      'Fluid Dynamics',
+      name: 'lecTitle3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mathematics`
+  String get lecTitle4 {
+    return Intl.message(
+      'Mathematics',
+      name: 'lecTitle4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sunday`
+  String get lecDay1 {
+    return Intl.message(
+      'Sunday',
+      name: 'lecDay1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Monday`
+  String get lecDay2 {
+    return Intl.message(
+      'Monday',
+      name: 'lecDay2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tuesday`
+  String get lecDay3 {
+    return Intl.message(
+      'Tuesday',
+      name: 'lecDay3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Wednesday`
+  String get lecDay4 {
+    return Intl.message(
+      'Wednesday',
+      name: 'lecDay4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Thursday`
+  String get lecDay5 {
+    return Intl.message(
+      'Thursday',
+      name: 'lecDay5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `08:15am - 9:00am`
+  String get lecTime {
+    return Intl.message(
+      '08:15am - 9:00am',
+      name: 'lecTime',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ahmed Ibrahim`
+  String get instructorName1 {
+    return Intl.message(
+      'Ahmed Ibrahim',
+      name: 'instructorName1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Eslam Gamal`
+  String get instructorName2 {
+    return Intl.message(
+      'Eslam Gamal',
+      name: 'instructorName2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mohamed Fathy`
+  String get instructorName3 {
+    return Intl.message(
+      'Mohamed Fathy',
+      name: 'instructorName3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mahmoud Abbas`
+  String get instructorName4 {
+    return Intl.message(
+      'Mahmoud Abbas',
+      name: 'instructorName4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mohamed Ali`
+  String get instructorName5 {
+    return Intl.message(
+      'Mohamed Ali',
+      name: 'instructorName5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Hall No.1`
+  String get lecPlace {
+    return Intl.message(
+      'Hall No.1',
+      name: 'lecPlace',
       desc: '',
       args: [],
     );

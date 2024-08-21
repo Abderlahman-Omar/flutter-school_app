@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:school_app/generated/l10n.dart';
 import 'package:school_app/helpers/constants.dart';
 import 'package:school_app/screens/profile_screen.dart';
+import 'package:school_app/screens/time_table_screen.dart';
 import 'package:school_app/widgets/custom_card.dart';
 import 'package:school_app/widgets/home_page_card.dart';
 
@@ -187,7 +188,16 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ),
                       GestureDetector(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) {
+                                return TimeTableScreen();
+                              },
+                            ),
+                          );
+                        },
                         child: HomePageCard(
                           assetName: 'assets/icons/timetable.svg',
                           cardText: S.of(context).timeTable,

@@ -25,7 +25,7 @@ class SchoolApp extends StatefulWidget {
 }
 
 class _SchoolAppState extends State<SchoolApp> {
-  Locale _locale = const Locale('ar');
+  Locale _locale = const Locale('en');
 
   void setLocale(Locale locale) {
     setState(() {
