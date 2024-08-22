@@ -6,6 +6,7 @@ import 'package:school_app/helpers/constants.dart';
 import 'package:school_app/screens/home_screen.dart';
 import 'package:school_app/screens/login_screen.dart';
 import 'package:school_app/screens/profile_screen.dart';
+import 'package:school_app/screens/result_screen.dart';
 import 'package:school_app/screens/splash_screen.dart';
 import 'package:school_app/screens/time_table_screen.dart';
 
@@ -75,6 +76,9 @@ class _SchoolAppState extends State<SchoolApp> {
             },
             TimeTableScreen.routeName: (context) {
               return const TimeTableScreen();
+            },
+            ResultScreen.routeName: (context) {
+              return const ResultScreen();
             },
           },
           initialRoute: SplashScreen.routeName,
