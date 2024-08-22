@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:school_app/generated/l10n.dart';
 import 'package:school_app/helpers/constants.dart';
 
 class ResultsScreenCard extends StatelessWidget {
@@ -42,7 +43,7 @@ class ResultsScreenCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  'Score :',
+                  S.of(context).scoreTitle,
                   style: TextStyle(
                     fontSize: 20.sp,
                     color: kTextWhiteColor,
@@ -50,7 +51,7 @@ class ResultsScreenCard extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  '90/100',
+                  S.of(context).score,
                   style: TextStyle(
                     fontSize: 20.sp,
                     color: kTextWhiteColor,
@@ -63,7 +64,7 @@ class ResultsScreenCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  'Grade :',
+                  S.of(context).gradeTitle,
                   style: TextStyle(
                     fontSize: 20.sp,
                     color: kTextWhiteColor,
@@ -71,7 +72,7 @@ class ResultsScreenCard extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'Excellent',
+                  S.of(context).grade,
                   style: TextStyle(
                     fontSize: 20.sp,
                     color: kTextWhiteColor,

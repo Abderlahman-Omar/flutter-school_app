@@ -18,7 +18,7 @@
     "loginInput1": "البريد الاكترونى / رقم الهاتف",
     "loginInput2": "كلمة السر",
     "signInBtn": "تسجيل الدخول",
-    "signInBtn2": "الذهاب لتسجبل الدخول",
+    "signInBtn2": "الصفحة الرئيسية",
     "classLocation": "قاعة رقم ١٢ أ| مقعد رقم ٢ ",
     "schoolYear": "٢٠٢٤-٢٠٢٥",
     "attendance": "الحضور",
@@ -71,5 +71,9 @@
     "instructorName3": "محمد فتحى",
     "instructorName4": "محمود عباس",
     "instructorName5": "محمد على",
-    "lecPlace": "قاعة رقم ١"
+    "lecPlace": "قاعة رقم ١",
+    "scoreTitle": "الدرجات :",
+    "score": "١٠٠/٩٠",
+    "gradeTitle": "التقدير :",
+    "grade": "امتياز"
 }

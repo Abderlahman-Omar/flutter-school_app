@@ -41,14 +41,14 @@ class LoginScreen extends StatelessWidget {
                         color: kTextWhiteColor,
                       ),
                     ),
-                    Text(
-                      S.of(context).title1,
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 35.sp,
-                        color: kTextWhiteColor,
-                      ),
-                    ),
+                    // Text(
+                    //   S.of(context).title2,
+                    //   style: TextStyle(
+                    //     fontWeight: FontWeight.bold,
+                    //     fontSize: 35.sp,
+                    //     color: kTextWhiteColor,
+                    //   ),
+                    // ),
                   ],
                 ),
                 SizedBox(

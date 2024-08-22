@@ -18,7 +18,7 @@
     "loginInput1": "Email / Mobile Number",
     "loginInput2": "Password",
     "signInBtn": "SIGN IN",
-    "signInBtn2": "To SignIN Page",
+    "signInBtn2": "Home Page",
     "classLocation": "Class X-II A | Roll no: 12",
     "schoolYear": "2024-2025",
     "attendance": "Attendance",
@@ -71,5 +71,9 @@
     "instructorName3": "Mohamed Fathy",
     "instructorName4": "Mahmoud Abbas",
     "instructorName5": "Mohamed Ali",
-    "lecPlace": "Hall No.1"
+    "lecPlace": "Hall No.1",
+    "scoreTitle": "Score :",
+    "score": "90/100",
+    "gradeTitle": "Grade :",
+    "grade": "Excellent"
 }

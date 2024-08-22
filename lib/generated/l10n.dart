@@ -240,10 +240,10 @@ class S {
     );
   }
 
-  /// `To SignIN Page`
+  /// `Home Page`
   String get signInBtn2 {
     return Intl.message(
-      'To SignIN Page',
+      'Home Page',
       name: 'signInBtn2',
       desc: '',
       args: [],
@@ -775,6 +775,46 @@ class S {
     return Intl.message(
       'Hall No.1',
       name: 'lecPlace',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Score :`
+  String get scoreTitle {
+    return Intl.message(
+      'Score :',
+      name: 'scoreTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `90/100`
+  String get score {
+    return Intl.message(
+      '90/100',
+      name: 'score',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Grade :`
+  String get gradeTitle {
+    return Intl.message(
+      'Grade :',
+      name: 'gradeTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Excellent`
+  String get grade {
+    return Intl.message(
+      'Excellent',
+      name: 'grade',
       desc: '',
       args: [],
     );
